@@ -13,6 +13,12 @@ body {
 
 }
 
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
 /*Navigation*/
 
 
@@ -56,6 +62,7 @@ header .navbar ul li a {
     display: block;
     color: #333;
     border-radius: 5px;
+    font-weight: bolder;
 }
 
 header .navbar ul li a:hover {
@@ -105,6 +112,7 @@ button {
     margin-top: 10px;
     margin-left: 5px;
     padding: 10px;
+    border-radius: 10px;
 
 }
 
@@ -132,6 +140,10 @@ button a:hover {
 
 
 @media(max-width:991px) {
+
+
+    /* navigation */
+
     header {
         padding: 20px;
     }
@@ -171,4 +183,95 @@ button a:hover {
         display: initial;
     }
 
+    /* sec1 */
+
+
+
+}
+
+
+/* sec1 */
+
+.sec1 {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://s1.1zoom.me/big0/206/GTA_5_Skyscrapers_Los_465512.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+
+    background-repeat: no-repeat;
+
+}
+
+.sec1 .section-1 {
+    width: 100%;
+    min-height: 100vh;
+
+
+
+}
+
+.sec1 .section-1 .apresenta {
+    color: black;
+    min-width: 320px;
+    width: 50%;
+    height: 70vh;
+    margin-top: 10rem;
+    color: white;
+    margin-left: 10px;
+
+
+}
+
+.sec1 .section-1 .apresenta h1 {
+    font-size: 50px;
+}
+
+.sec1 .section-1 .apresenta .row {
+
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+
+.sec1 .section-1 .apresenta .row .col {
+    padding: 5px;
+}
+
+.material-icons {
+    width: 24px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.material-icons.tiny {
+    font-size: 1rem;
+    width: 1rem;
+    overflow: hidden;
+}
+
+.material-icons.small {
+    font-size: 2rem;
+    width: 2rem;
+    overflow: hidden;
+}
+
+.material-icons.medium {
+    font-size: 4rem;
+    width: 4rem;
+    overflow: hidden;
+}
+
+.material-icons.large {
+    font-size: 6rem;
+    width: 6rem;
+    overflow: hidden;
+}
+
+.material-icons.extra-large {
+    font-size: 10rem;
+    width: 10rem;
+    overflow: hidden;
 }
