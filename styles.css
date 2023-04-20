@@ -43,6 +43,8 @@ header .logo {
     color: #333;
 }
 
+
+
 header .navbar ul {
     list-style: none;
 }
@@ -159,6 +161,7 @@ button a:hover {
         right: 0;
         border-top: 1px solid rgba(0, 0, 0, 0.1);
         display: none;
+        background-color: #fff;
     }
 
     header .navbar ul li {
