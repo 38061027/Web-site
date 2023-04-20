@@ -194,6 +194,20 @@ button a:hover {
 
 
 
+
+    
+
+    /*section2*/
+
+    .sec2 .section2 .container .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec2 .section2 .container .row col-sm{
+       height: auto;
+    }
+
 }
 
 
@@ -293,39 +307,38 @@ button a:hover {
     .sec2{
         display: flex;
         width: 100%;
-        height: 100vh;
-        background-image: linear-gradient(to top, white, green);
+        background: gray;
     }
 
 
     .sec2 .section2{
         width: 100%;
-      
+      display: flex;
     }
     .sec2 .section2 .container{
         width: 100%;
-        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
 
     .sec2 .section2 .container .row{
-        display: grid;
+        display:    flex;
         grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: 100px;
        height: 400px;
-      
+       
     }
 
     .sec2 .section2 .container .row .col-sm{
-        
-        height: 400px;
+        box-shadow: 10px 5px 5px black;
+       height:400px;
         margin: 25px;
       padding: 20px;
       width: 200px;
      
-      background-color: #333;
+      background-color: #eee;
     }
 
 
@@ -336,7 +349,7 @@ button a:hover {
  
     footer{
         background-color: #333;
-       margin-top: 100px;
+     
         width: 100%;
         height: 800px;
         bottom: 0;
