@@ -32,17 +32,20 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
 }
 
 header .logo {
     font-weight: bolder;
     font-size: 25px;
-    margin-left: 10px;
+    margin-left: 30px;
     color: #333;
+    
 }
 
-
+header .navbar{
+    margin-right: 10px;
+}
 
 header .navbar ul {
     list-style: none;
@@ -97,6 +100,7 @@ header .navbar ul li:focus-within>ul,
 header .navbar ul li:hover>ul {
     display: initial;
 }
+
 
 #menu-bar {
     display: none;
@@ -207,7 +211,7 @@ button a:hover {
 }
 
 
-@media (max-width: 1029px){
+@media (max-width: 1032px){
     .sec2 .section2 .container .row {
         display: flex;
       flex-direction: row;
@@ -367,9 +371,23 @@ button a:hover {
     height: 400px;
     width: 250px;
     background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
+
+/* Caixas da sessão 2*/
+
+
+.sec2 .section2 .container .row .col-sm .caixa{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
 
 
 /* rodapé*/
