@@ -38,13 +38,13 @@ header {
 header .logo {
     font-weight: bolder;
     font-size: 25px;
-    margin-left: 30px;
+    margin-left: 35px;
     color: #333;
     
 }
 
 header .navbar{
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 header .navbar ul {
@@ -248,16 +248,17 @@ button a:hover {
 
     /* footer */
 
-    .footer-caixa{
+    footer .footer-caixa{
         display: flex;
         flex-direction: column;
+        margin: 5px;
     }
 
-    .footer-caixa div{
-        margin: 20px;
-    }
-
+    
 }
+
+
+
 
 
 
@@ -477,19 +478,19 @@ button a:hover {
 
 footer {
     background-color: #333;
-   
     display: flex;
     bottom: 0;
     text-align: center;
-  
+    width: 100%;
 
 }
 
 .footer-caixa{
     display: flex;
-  margin: 15px;
+    width: 100%;
+    flex-direction: row;
   justify-content: center;
- 
+   gap: 30px;
 }
 
 
@@ -497,7 +498,8 @@ footer {
     padding: 10px;
     display: flex;
     flex-direction: column;
- 
+   
+   
 }
 
 .footer-caixa div h4{
@@ -513,10 +515,6 @@ footer {
     margin-bottom: 10px;
 }
 
-/* .footer-caixa .empresa{
- display: flex;
- flex-direction: column;
-} */
 
 
 .footer-caixa div p{
