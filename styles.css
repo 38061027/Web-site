@@ -207,6 +207,12 @@ button a:hover {
      
     }
 
+
+    /* Footer */
+    .footer-caixa{
+        display: flex;
+       margin: 15px;
+    }
     
 }
 
@@ -222,6 +228,16 @@ button a:hover {
 }
 
 
+@media (max-width: 883px){
+
+    .footer-caixa{
+        display: flex;
+       gap: 20px;
+    }
+
+}
+
+
 @media (max-width: 632px){
     .sec2 .section2 .container .row {
         display: flex;
@@ -230,7 +246,16 @@ button a:hover {
      
     }
 
+    /* footer */
 
+    .footer-caixa{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-caixa div{
+        margin: 20px;
+    }
 
 }
 
@@ -438,11 +463,22 @@ button a:hover {
 
 footer {
     background-color: #333;
-    flex-direction: row;
+   
     display: flex;
-    width: 100%;
     bottom: 0;
     text-align: center;
-    line-height: 120px;
+  
 
+}
+
+.footer-caixa{
+    display: flex;
+  margin: 15px;
+  justify-content: center;
+ 
+}
+
+
+.footer-caixa div{
+    padding: 10px;
 }
