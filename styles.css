@@ -646,4 +646,19 @@ footer {
 
 .footer-caixa .empresa a{
     color: #eee;
+    padding: 2px;
 }
+
+.footer-caixa .empresa a i{
+    font-size: 14px;
+}
+
+.footer-caixa .servico p i{
+    font-size: 10px;
+}
+
+.footer-caixa .institu p i{
+    font-size: 10px;
+}
+
+
