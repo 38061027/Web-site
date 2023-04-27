@@ -237,6 +237,7 @@ header label {
 
     header {
         padding: 20px;
+        z-index: 1;
     }
 
     header label {
@@ -579,6 +580,8 @@ header label {
     transition: 0s;
 }
 
+
+/* Botões*/
 
 
 
